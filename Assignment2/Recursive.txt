@@ -1,0 +1,4992 @@
+Script started on Thu Mar  7 23:15:24 2019
+[?1034hbash-3.2$ exitjava Asst2TestDriver Inspector
+Loading object inspector: Inspector
+======================================================
+Running Test: ClassA
+inside inspector: ClassA (recursive = true)
+
+================= Basic ClassInfo =================
+Class: ClassA
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.io.Serializable,java.lang.Runnable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: setVal
+----Exceptions throw: {java.lang.Exception }
+----Parameter types: {int }
+----Return type: void
+----Modifier: public
+
+----Method name: getVal
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public
+
+----Method name: printSomething
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+----Parameter types: {int }
+----Modifier: public
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: val
+----Field type: int
+----Value: 3
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val2
+----Field type: double
+----Value: 0.2
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val3
+----Field type: boolean
+----Value: true
+----Modifier: private
+================ Field Info End ==================
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Runnable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public abstract
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+======================================================
+======================================================
+Running Test: ClassA
+inside inspector: ClassA (recursive = true)
+
+================= Basic ClassInfo =================
+Class: ClassA
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.io.Serializable,java.lang.Runnable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: setVal
+----Exceptions throw: {java.lang.Exception }
+----Parameter types: {int }
+----Return type: void
+----Modifier: public
+
+----Method name: getVal
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public
+
+----Method name: printSomething
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+----Parameter types: {int }
+----Modifier: public
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: val
+----Field type: int
+----Value: 12
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val2
+----Field type: double
+----Value: 0.2
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val3
+----Field type: boolean
+----Value: true
+----Modifier: private
+================ Field Info End ==================
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Runnable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public abstract
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+======================================================
+======================================================
+Running Test: ClassB
+inside inspector: ClassB (recursive = true)
+
+================= Basic ClassInfo =================
+Class: ClassB
+Immediate superclass: class ClassC
+Is Interface: false
+Interfaces: {java.lang.Runnable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: func3
+----Exceptions throw: {null}
+----Parameter types: {int }
+----Return type: void
+----Modifier: public
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: val
+----Field type: class ClassA
+----Value: ClassA
+----Modifier: public
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val2
+----Field type: class ClassA
+----Value: ClassA
+----Modifier: public
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val3
+----Field type: class ClassA
+----Value: null
+----Modifier: public
+================ Field Info End ==================
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: ClassC
+Immediate superclass: class ClassD
+Is Interface: false
+Interfaces: {InterfaceA }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: func0
+----Exceptions throw: {java.lang.Exception }
+----Parameter types: {int,boolean }
+----Return type: void
+----Modifier: public
+
+----Method name: func3
+----Exceptions throw: {null}
+----Parameter types: {int }
+----Return type: void
+----Modifier: public abstract
+
+----Method name: func2
+----Exceptions throw: {java.lang.Exception,java.lang.ArithmeticException,java.lang.IllegalMonitorStateException }
+----Parameter types: {java.lang.String }
+----Return type: int
+----Modifier: public
+
+----Method name: func1
+----Exceptions throw: {java.lang.Exception }
+----Parameter types: {int,double,boolean,java.lang.String }
+----Return type: void
+----Modifier: public
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+----Parameter types: {int,int }
+----Modifier: public
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: val2
+----Field type: class ClassA
+----Value: ClassA
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val3
+----Field type: class ClassA
+----Value: ClassA
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val4
+----Field type: class ClassA
+----Value: ClassA
+----Modifier: private
+================ Field Info End ==================
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: ClassD
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: getVal3
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+----Parameter types: {int }
+----Modifier: public
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: val
+----Field type: class ClassA
+----Value: ClassA
+----Modifier: public
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val2
+----Field type: class ClassA
+----Value: null
+----Modifier: public static
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val3
+----Field type: int
+----Value: 34
+----Modifier: public
+================ Field Info End ==================
+
+=========== The field is an array =============
+----Field(array) name: vallarray
+----Field(array) Component type: class ClassA
+----Field(array) length: 10
+----Modifier: public
+No.0= null
+No.1= null
+No.2= null
+No.3= null
+No.4= null
+No.5= null
+No.6= null
+No.7= null
+No.8= null
+No.9= null
+================ The array end ===============
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: InterfaceA
+Immediate superclass: null
+Is Interface: true
+Interfaces: {InterfaceB }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: func2
+----Exceptions throw: {java.lang.Exception,java.lang.ArithmeticException,java.lang.IllegalMonitorStateException }
+----Parameter types: {java.lang.String }
+----Return type: int
+----Modifier: public abstract
+
+----Method name: func1
+----Exceptions throw: {java.lang.Exception }
+----Parameter types: {int,double,boolean,java.lang.String }
+----Return type: void
+----Modifier: public abstract
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: InterfaceB
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: func0
+----Exceptions throw: {java.lang.Exception }
+----Parameter types: {int,boolean }
+----Return type: void
+----Modifier: public abstract
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+====================================================================
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Runnable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public abstract
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+---- Inspecting Field Classes ----
+Inspecting Field: val
+*********           start         *********
+inside inspector: ClassA (recursive = true)
+
+================= Basic ClassInfo =================
+Class: ClassA
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.io.Serializable,java.lang.Runnable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: setVal
+----Exceptions throw: {java.lang.Exception }
+----Parameter types: {int }
+----Return type: void
+----Modifier: public
+
+----Method name: getVal
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public
+
+----Method name: printSomething
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+----Parameter types: {int }
+----Modifier: public
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: val
+----Field type: int
+----Value: 3
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val2
+----Field type: double
+----Value: 0.2
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val3
+----Field type: boolean
+----Value: true
+----Modifier: private
+================ Field Info End ==================
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Runnable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public abstract
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+*********           end           *********
+Inspecting Field: val2
+*********           start         *********
+inside inspector: ClassA (recursive = true)
+
+================= Basic ClassInfo =================
+Class: ClassA
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.io.Serializable,java.lang.Runnable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: setVal
+----Exceptions throw: {java.lang.Exception }
+----Parameter types: {int }
+----Return type: void
+----Modifier: public
+
+----Method name: getVal
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public
+
+----Method name: printSomething
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+----Parameter types: {int }
+----Modifier: public
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: val
+----Field type: int
+----Value: 12
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val2
+----Field type: double
+----Value: 0.2
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val3
+----Field type: boolean
+----Value: true
+----Modifier: private
+================ Field Info End ==================
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Runnable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public abstract
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+*********           end           *********
+Inspecting Field: val3
+*********           start         *********
+The field is null
+*********           end           *********
+Inspecting Field: val2
+*********           start         *********
+inside inspector: ClassA (recursive = true)
+
+================= Basic ClassInfo =================
+Class: ClassA
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.io.Serializable,java.lang.Runnable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: setVal
+----Exceptions throw: {java.lang.Exception }
+----Parameter types: {int }
+----Return type: void
+----Modifier: public
+
+----Method name: getVal
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public
+
+----Method name: printSomething
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+----Parameter types: {int }
+----Modifier: public
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: val
+----Field type: int
+----Value: 100
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val2
+----Field type: double
+----Value: 0.2
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val3
+----Field type: boolean
+----Value: true
+----Modifier: private
+================ Field Info End ==================
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Runnable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public abstract
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+*********           end           *********
+Inspecting Field: val3
+*********           start         *********
+inside inspector: ClassA (recursive = true)
+
+================= Basic ClassInfo =================
+Class: ClassA
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.io.Serializable,java.lang.Runnable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: setVal
+----Exceptions throw: {java.lang.Exception }
+----Parameter types: {int }
+----Return type: void
+----Modifier: public
+
+----Method name: getVal
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public
+
+----Method name: printSomething
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+----Parameter types: {int }
+----Modifier: public
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: val
+----Field type: int
+----Value: 2
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val2
+----Field type: double
+----Value: 0.2
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val3
+----Field type: boolean
+----Value: true
+----Modifier: private
+================ Field Info End ==================
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Runnable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public abstract
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+*********           end           *********
+Inspecting Field: val4
+*********           start         *********
+inside inspector: ClassA (recursive = true)
+
+================= Basic ClassInfo =================
+Class: ClassA
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.io.Serializable,java.lang.Runnable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: setVal
+----Exceptions throw: {java.lang.Exception }
+----Parameter types: {int }
+----Return type: void
+----Modifier: public
+
+----Method name: getVal
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public
+
+----Method name: printSomething
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+----Parameter types: {int }
+----Modifier: public
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: val
+----Field type: int
+----Value: 3
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val2
+----Field type: double
+----Value: 0.2
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val3
+----Field type: boolean
+----Value: true
+----Modifier: private
+================ Field Info End ==================
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Runnable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public abstract
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+*********           end           *********
+Inspecting Field: val
+*********           start         *********
+inside inspector: ClassA (recursive = true)
+
+================= Basic ClassInfo =================
+Class: ClassA
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.io.Serializable,java.lang.Runnable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: setVal
+----Exceptions throw: {java.lang.Exception }
+----Parameter types: {int }
+----Return type: void
+----Modifier: public
+
+----Method name: getVal
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public
+
+----Method name: printSomething
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+----Parameter types: {int }
+----Modifier: public
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: val
+----Field type: int
+----Value: 17
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val2
+----Field type: double
+----Value: 0.2
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val3
+----Field type: boolean
+----Value: true
+----Modifier: private
+================ Field Info End ==================
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Runnable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public abstract
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+*********           end           *********
+Inspecting Field: val2
+*********           start         *********
+The field is null
+*********           end           *********
+Inspecting Field: vallarray
+*********           start         *********
+inside inspector: [LClassA;@4aa298b7 (recursive = true)
+
+================= Basic ClassInfo =================
+Class: [LClassA;
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.lang.Cloneable,java.io.Serializable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Cloneable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+*********           end           *********
+======================================================
+======================================================
+Running Test: ClassD
+inside inspector: ClassD (recursive = true)
+
+================= Basic ClassInfo =================
+Class: ClassD
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: getVal3
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+----Parameter types: {int }
+----Modifier: public
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: val
+----Field type: class ClassA
+----Value: ClassA
+----Modifier: public
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val2
+----Field type: class ClassA
+----Value: null
+----Modifier: public static
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val3
+----Field type: int
+----Value: 32
+----Modifier: public
+================ Field Info End ==================
+
+=========== The field is an array =============
+----Field(array) name: vallarray
+----Field(array) Component type: class ClassA
+----Field(array) length: 10
+----Modifier: public
+No.0= null
+No.1= null
+No.2= null
+No.3= null
+No.4= null
+No.5= null
+No.6= null
+No.7= null
+No.8= null
+No.9= null
+================ The array end ===============
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+---- Inspecting Field Classes ----
+Inspecting Field: val
+*********           start         *********
+inside inspector: ClassA (recursive = true)
+
+================= Basic ClassInfo =================
+Class: ClassA
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.io.Serializable,java.lang.Runnable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: setVal
+----Exceptions throw: {java.lang.Exception }
+----Parameter types: {int }
+----Return type: void
+----Modifier: public
+
+----Method name: getVal
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public
+
+----Method name: printSomething
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+----Parameter types: {int }
+----Modifier: public
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: val
+----Field type: int
+----Value: 17
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val2
+----Field type: double
+----Value: 0.2
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val3
+----Field type: boolean
+----Value: true
+----Modifier: private
+================ Field Info End ==================
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Runnable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public abstract
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+*********           end           *********
+Inspecting Field: val2
+*********           start         *********
+The field is null
+*********           end           *********
+Inspecting Field: vallarray
+*********           start         *********
+inside inspector: [LClassA;@1b6d3586 (recursive = true)
+
+================= Basic ClassInfo =================
+Class: [LClassA;
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.lang.Cloneable,java.io.Serializable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Cloneable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+*********           end           *********
+======================================================
+======================================================
+Running Test: ClassD
+inside inspector: ClassD (recursive = true)
+
+================= Basic ClassInfo =================
+Class: ClassD
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: getVal3
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+----Parameter types: {int }
+----Modifier: public
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: val
+----Field type: class ClassA
+----Value: ClassA
+----Modifier: public
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val2
+----Field type: class ClassA
+----Value: null
+----Modifier: public static
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val3
+----Field type: int
+----Value: 34
+----Modifier: public
+================ Field Info End ==================
+
+=========== The field is an array =============
+----Field(array) name: vallarray
+----Field(array) Component type: class ClassA
+----Field(array) length: 10
+----Modifier: public
+No.0= null
+No.1= null
+No.2= null
+No.3= null
+No.4= null
+No.5= null
+No.6= null
+No.7= null
+No.8= null
+No.9= null
+================ The array end ===============
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+---- Inspecting Field Classes ----
+Inspecting Field: val
+*********           start         *********
+inside inspector: ClassA (recursive = true)
+
+================= Basic ClassInfo =================
+Class: ClassA
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.io.Serializable,java.lang.Runnable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: setVal
+----Exceptions throw: {java.lang.Exception }
+----Parameter types: {int }
+----Return type: void
+----Modifier: public
+
+----Method name: getVal
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public
+
+----Method name: printSomething
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+----Parameter types: {int }
+----Modifier: public
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: val
+----Field type: int
+----Value: 17
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val2
+----Field type: double
+----Value: 0.2
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: val3
+----Field type: boolean
+----Value: true
+----Modifier: private
+================ Field Info End ==================
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Runnable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: run
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public abstract
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+*********           end           *********
+Inspecting Field: val2
+*********           start         *********
+The field is null
+*********           end           *********
+Inspecting Field: vallarray
+*********           start         *********
+inside inspector: [LClassA;@4554617c (recursive = true)
+
+================= Basic ClassInfo =================
+Class: [LClassA;
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.lang.Cloneable,java.io.Serializable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Cloneable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+*********           end           *********
+======================================================
+======================================================
+Running Test: [LClassB;@74a14482
+inside inspector: [LClassB;@74a14482 (recursive = true)
+
+================= Basic ClassInfo =================
+Class: [LClassB;
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.lang.Cloneable,java.io.Serializable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Cloneable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+======================================================
+======================================================
+Running Test: [[LClassB;@677327b6
+inside inspector: [[LClassB;@677327b6 (recursive = true)
+
+================= Basic ClassInfo =================
+Class: [[LClassB;
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.lang.Cloneable,java.io.Serializable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Cloneable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+======================================================
+======================================================
+Running Test: Test String
+inside inspector: Test String (recursive = true)
+
+================= Basic ClassInfo =================
+Class: java.lang.String
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.io.Serializable,java.lang.Comparable,java.lang.CharSequence }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public
+
+----Method name: compareTo
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: int
+----Modifier: public volatile
+
+----Method name: compareTo
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String }
+----Return type: int
+----Modifier: public
+
+----Method name: indexOf
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String,int }
+----Return type: int
+----Modifier: public
+
+----Method name: indexOf
+----Exceptions throw: {null}
+----Parameter types: {[C,int,int,java.lang.String,int }
+----Return type: int
+----Modifier: static
+
+----Method name: indexOf
+----Exceptions throw: {null}
+----Parameter types: {[C,int,int,[C,int,int,int }
+----Return type: int
+----Modifier: static
+
+----Method name: indexOf
+----Exceptions throw: {null}
+----Parameter types: {int }
+----Return type: int
+----Modifier: public
+
+----Method name: indexOf
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String }
+----Return type: int
+----Modifier: public
+
+----Method name: indexOf
+----Exceptions throw: {null}
+----Parameter types: {int,int }
+----Return type: int
+----Modifier: public
+
+----Method name: valueOf
+----Exceptions throw: {null}
+----Parameter types: {char }
+----Return type: class java.lang.String
+----Modifier: public static
+
+----Method name: valueOf
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: class java.lang.String
+----Modifier: public static
+
+----Method name: valueOf
+----Exceptions throw: {null}
+----Parameter types: {boolean }
+----Return type: class java.lang.String
+----Modifier: public static
+
+----Method name: valueOf
+----Exceptions throw: {null}
+----Parameter types: {[C,int,int }
+----Return type: class java.lang.String
+----Modifier: public static
+
+----Method name: valueOf
+----Exceptions throw: {null}
+----Parameter types: {[C }
+----Return type: class java.lang.String
+----Modifier: public static
+
+----Method name: valueOf
+----Exceptions throw: {null}
+----Parameter types: {double }
+----Return type: class java.lang.String
+----Modifier: public static
+
+----Method name: valueOf
+----Exceptions throw: {null}
+----Parameter types: {float }
+----Return type: class java.lang.String
+----Modifier: public static
+
+----Method name: valueOf
+----Exceptions throw: {null}
+----Parameter types: {long }
+----Return type: class java.lang.String
+----Modifier: public static
+
+----Method name: valueOf
+----Exceptions throw: {null}
+----Parameter types: {int }
+----Return type: class java.lang.String
+----Modifier: public static
+
+----Method name: checkBounds
+----Exceptions throw: {null}
+----Parameter types: {[B,int,int }
+----Return type: void
+----Modifier: private static
+
+----Method name: length
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public
+
+----Method name: isEmpty
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: boolean
+----Modifier: public
+
+----Method name: charAt
+----Exceptions throw: {null}
+----Parameter types: {int }
+----Return type: char
+----Modifier: public
+
+----Method name: codePointAt
+----Exceptions throw: {null}
+----Parameter types: {int }
+----Return type: int
+----Modifier: public
+
+----Method name: codePointBefore
+----Exceptions throw: {null}
+----Parameter types: {int }
+----Return type: int
+----Modifier: public
+
+----Method name: codePointCount
+----Exceptions throw: {null}
+----Parameter types: {int,int }
+----Return type: int
+----Modifier: public
+
+----Method name: offsetByCodePoints
+----Exceptions throw: {null}
+----Parameter types: {int,int }
+----Return type: int
+----Modifier: public
+
+----Method name: getChars
+----Exceptions throw: {null}
+----Parameter types: {int,int,[C,int }
+----Return type: void
+----Modifier: public
+
+----Method name: getChars
+----Exceptions throw: {null}
+----Parameter types: {[C,int }
+----Return type: void
+----Modifier: 
+
+----Method name: getBytes
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class [B
+----Modifier: public
+
+----Method name: getBytes
+----Exceptions throw: {java.io.UnsupportedEncodingException }
+----Parameter types: {java.lang.String }
+----Return type: class [B
+----Modifier: public
+
+----Method name: getBytes
+----Exceptions throw: {null}
+----Parameter types: {int,int,[B,int }
+----Return type: void
+----Modifier: public
+
+----Method name: getBytes
+----Exceptions throw: {null}
+----Parameter types: {java.nio.charset.Charset }
+----Return type: class [B
+----Modifier: public
+
+----Method name: contentEquals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.StringBuffer }
+----Return type: boolean
+----Modifier: public
+
+----Method name: contentEquals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.CharSequence }
+----Return type: boolean
+----Modifier: public
+
+----Method name: nonSyncContentEquals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.AbstractStringBuilder }
+----Return type: boolean
+----Modifier: private
+
+----Method name: equalsIgnoreCase
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String }
+----Return type: boolean
+----Modifier: public
+
+----Method name: compareToIgnoreCase
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String }
+----Return type: int
+----Modifier: public
+
+----Method name: regionMatches
+----Exceptions throw: {null}
+----Parameter types: {int,java.lang.String,int,int }
+----Return type: boolean
+----Modifier: public
+
+----Method name: regionMatches
+----Exceptions throw: {null}
+----Parameter types: {boolean,int,java.lang.String,int,int }
+----Return type: boolean
+----Modifier: public
+
+----Method name: startsWith
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String }
+----Return type: boolean
+----Modifier: public
+
+----Method name: startsWith
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String,int }
+----Return type: boolean
+----Modifier: public
+
+----Method name: endsWith
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String }
+----Return type: boolean
+----Modifier: public
+
+----Method name: indexOfSupplementary
+----Exceptions throw: {null}
+----Parameter types: {int,int }
+----Return type: int
+----Modifier: private
+
+----Method name: lastIndexOf
+----Exceptions throw: {null}
+----Parameter types: {int,int }
+----Return type: int
+----Modifier: public
+
+----Method name: lastIndexOf
+----Exceptions throw: {null}
+----Parameter types: {[C,int,int,[C,int,int,int }
+----Return type: int
+----Modifier: static
+
+----Method name: lastIndexOf
+----Exceptions throw: {null}
+----Parameter types: {[C,int,int,java.lang.String,int }
+----Return type: int
+----Modifier: static
+
+----Method name: lastIndexOf
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String,int }
+----Return type: int
+----Modifier: public
+
+----Method name: lastIndexOf
+----Exceptions throw: {null}
+----Parameter types: {int }
+----Return type: int
+----Modifier: public
+
+----Method name: lastIndexOf
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String }
+----Return type: int
+----Modifier: public
+
+----Method name: lastIndexOfSupplementary
+----Exceptions throw: {null}
+----Parameter types: {int,int }
+----Return type: int
+----Modifier: private
+
+----Method name: substring
+----Exceptions throw: {null}
+----Parameter types: {int }
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: substring
+----Exceptions throw: {null}
+----Parameter types: {int,int }
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: subSequence
+----Exceptions throw: {null}
+----Parameter types: {int,int }
+----Return type: interface java.lang.CharSequence
+----Modifier: public
+
+----Method name: concat
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String }
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: replace
+----Exceptions throw: {null}
+----Parameter types: {char,char }
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: replace
+----Exceptions throw: {null}
+----Parameter types: {java.lang.CharSequence,java.lang.CharSequence }
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: matches
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String }
+----Return type: boolean
+----Modifier: public
+
+----Method name: contains
+----Exceptions throw: {null}
+----Parameter types: {java.lang.CharSequence }
+----Return type: boolean
+----Modifier: public
+
+----Method name: replaceFirst
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String,java.lang.String }
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: replaceAll
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String,java.lang.String }
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: split
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String,int }
+----Return type: class [Ljava.lang.String;
+----Modifier: public
+
+----Method name: split
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String }
+----Return type: class [Ljava.lang.String;
+----Modifier: public
+
+----Method name: join
+----Exceptions throw: {null}
+----Parameter types: {java.lang.CharSequence,[Ljava.lang.CharSequence; }
+----Return type: class java.lang.String
+----Modifier: public static transient
+
+----Method name: join
+----Exceptions throw: {null}
+----Parameter types: {java.lang.CharSequence,java.lang.Iterable }
+----Return type: class java.lang.String
+----Modifier: public static
+
+----Method name: toLowerCase
+----Exceptions throw: {null}
+----Parameter types: {java.util.Locale }
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: toLowerCase
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: toUpperCase
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: toUpperCase
+----Exceptions throw: {null}
+----Parameter types: {java.util.Locale }
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: trim
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: toCharArray
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class [C
+----Modifier: public
+
+----Method name: format
+----Exceptions throw: {null}
+----Parameter types: {java.util.Locale,java.lang.String,[Ljava.lang.Object; }
+----Return type: class java.lang.String
+----Modifier: public static transient
+
+----Method name: format
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String,[Ljava.lang.Object; }
+----Return type: class java.lang.String
+----Modifier: public static transient
+
+----Method name: copyValueOf
+----Exceptions throw: {null}
+----Parameter types: {[C,int,int }
+----Return type: class java.lang.String
+----Modifier: public static
+
+----Method name: copyValueOf
+----Exceptions throw: {null}
+----Parameter types: {[C }
+----Return type: class java.lang.String
+----Modifier: public static
+
+----Method name: intern
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {[B,int,int }
+----Modifier: public
+----Parameter types: {[B,java.nio.charset.Charset }
+----Modifier: public
+----Parameter types: {[B,java.lang.String }
+----Modifier: public
+----Parameter types: {[B,int,int,java.nio.charset.Charset }
+----Modifier: public
+----Parameter types: {[B,int,int,java.lang.String }
+----Modifier: public
+----Parameter types: {java.lang.StringBuilder }
+----Modifier: public
+----Parameter types: {java.lang.StringBuffer }
+----Modifier: public
+----Parameter types: {[B }
+----Modifier: public
+----Parameter types: {[I,int,int }
+----Modifier: public
+----Parameter types: {null}
+----Modifier: public
+----Parameter types: {[C }
+----Modifier: public
+----Parameter types: {java.lang.String }
+----Modifier: public
+----Parameter types: {[C,int,int }
+----Modifier: public
+----Parameter types: {[B,int }
+----Modifier: public
+----Parameter types: {[B,int,int,int }
+----Modifier: public
+=============== Constructor Info End ===============
+
+=========== The field is an array =============
+----Field(array) name: value
+----Field(array) Component type: char
+----Field(array) length: 11
+----Modifier: private final
+No.0= T
+No.1= e
+No.2= s
+No.3= t
+No.4=  
+No.5= S
+No.6= t
+No.7= r
+No.8= i
+No.9= n
+No.10= g
+================ The array end ===============
+
+=================== Field Info ================
+----Field name: hash
+----Field type: int
+----Value: 0
+----Modifier: private
+================ Field Info End ==================
+
+
+=================== Field Info ================
+----Field name: serialVersionUID
+----Field type: long
+----Value: -6849794470754667710
+----Modifier: private static final
+================ Field Info End ==================
+
+=========== The field is an array =============
+----Field(array) name: serialPersistentFields
+----Field(array) Component type: class java.io.ObjectStreamField
+----Field(array) length: 0
+----Modifier: private static final
+================ The array end ===============
+
+=================== Field Info ================
+----Field name: CASE_INSENSITIVE_ORDER
+----Field type: interface java.util.Comparator
+----Value: java.lang.String$CaseInsensitiveComparator@6d6f6e28
+----Modifier: public static final
+================ Field Info End ==================
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Comparable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: compareTo
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: int
+----Modifier: public abstract
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.CharSequence
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public abstract
+
+----Method name: length
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public abstract
+
+----Method name: charAt
+----Exceptions throw: {null}
+----Parameter types: {int }
+----Return type: char
+----Modifier: public abstract
+
+----Method name: subSequence
+----Exceptions throw: {null}
+----Parameter types: {int,int }
+----Return type: interface java.lang.CharSequence
+----Modifier: public abstract
+
+----Method name: chars
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: interface java.util.stream.IntStream
+----Modifier: public
+
+----Method name: codePoints
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: interface java.util.stream.IntStream
+----Modifier: public
+
+----Method name: lambda$codePoints$1
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: interface java.util.Spliterator$OfInt
+----Modifier: private
+
+----Method name: lambda$chars$0
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: interface java.util.Spliterator$OfInt
+----Modifier: private
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+---- Inspecting Field Classes ----
+Inspecting Field: value
+*********           start         *********
+inside inspector: [C@330bedb4 (recursive = true)
+
+================= Basic ClassInfo =================
+Class: [C
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.lang.Cloneable,java.io.Serializable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Cloneable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+*********           end           *********
+Inspecting Field: serialPersistentFields
+*********           start         *********
+inside inspector: [Ljava.io.ObjectStreamField;@4b67cf4d (recursive = true)
+
+================= Basic ClassInfo =================
+Class: [Ljava.io.ObjectStreamField;
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.lang.Cloneable,java.io.Serializable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.lang.Cloneable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+*********           end           *********
+Inspecting Field: CASE_INSENSITIVE_ORDER
+*********           start         *********
+inside inspector: java.lang.String$CaseInsensitiveComparator@6d6f6e28 (recursive = true)
+
+================= Basic ClassInfo =================
+Class: java.lang.String$CaseInsensitiveComparator
+Immediate superclass: class java.lang.Object
+Is Interface: false
+Interfaces: {java.util.Comparator,java.io.Serializable }
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: compare
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object,java.lang.Object }
+----Return type: int
+----Modifier: public volatile
+
+----Method name: compare
+----Exceptions throw: {null}
+----Parameter types: {java.lang.String,java.lang.String }
+----Return type: int
+----Modifier: public
+
+----Method name: readResolve
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: private
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+
+=================== Field Info ================
+----Field name: serialVersionUID
+----Field type: long
+----Value: 8575799808933029326
+----Modifier: private static final
+================ Field Info End ==================
+
+===================== Inspecting Superclass ============================
+
+================= Basic ClassInfo =================
+Class: java.lang.Object
+Immediate superclass: null
+Is Interface: false
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: finalize
+----Exceptions throw: {java.lang.Throwable }
+----Parameter types: {null}
+----Return type: void
+----Modifier: protected
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long,int }
+----Return type: void
+----Modifier: public final
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {long }
+----Return type: void
+----Modifier: public final native
+
+----Method name: wait
+----Exceptions throw: {java.lang.InterruptedException }
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final
+
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public
+
+----Method name: toString
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.String
+----Modifier: public
+
+----Method name: hashCode
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: int
+----Modifier: public native
+
+----Method name: getClass
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: class java.lang.Class
+----Modifier: public final native
+
+----Method name: clone
+----Exceptions throw: {java.lang.CloneNotSupportedException }
+----Parameter types: {null}
+----Return type: class java.lang.Object
+----Modifier: protected native
+
+----Method name: registerNatives
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: private static native
+
+----Method name: notify
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+----Method name: notifyAll
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: void
+----Modifier: public final native
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+----Parameter types: {null}
+----Modifier: public
+=============== Constructor Info End ===============
+
+========================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.util.Comparator
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+----Method name: equals
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object }
+----Return type: boolean
+----Modifier: public abstract
+
+----Method name: compare
+----Exceptions throw: {null}
+----Parameter types: {java.lang.Object,java.lang.Object }
+----Return type: int
+----Modifier: public abstract
+
+----Method name: reversed
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: interface java.util.Comparator
+----Modifier: public
+
+----Method name: thenComparing
+----Exceptions throw: {null}
+----Parameter types: {java.util.function.Function }
+----Return type: interface java.util.Comparator
+----Modifier: public
+
+----Method name: thenComparing
+----Exceptions throw: {null}
+----Parameter types: {java.util.function.Function,java.util.Comparator }
+----Return type: interface java.util.Comparator
+----Modifier: public
+
+----Method name: thenComparing
+----Exceptions throw: {null}
+----Parameter types: {java.util.Comparator }
+----Return type: interface java.util.Comparator
+----Modifier: public
+
+----Method name: thenComparingInt
+----Exceptions throw: {null}
+----Parameter types: {java.util.function.ToIntFunction }
+----Return type: interface java.util.Comparator
+----Modifier: public
+
+----Method name: thenComparingLong
+----Exceptions throw: {null}
+----Parameter types: {java.util.function.ToLongFunction }
+----Return type: interface java.util.Comparator
+----Modifier: public
+
+----Method name: thenComparingDouble
+----Exceptions throw: {null}
+----Parameter types: {java.util.function.ToDoubleFunction }
+----Return type: interface java.util.Comparator
+----Modifier: public
+
+----Method name: reverseOrder
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: interface java.util.Comparator
+----Modifier: public static
+
+----Method name: naturalOrder
+----Exceptions throw: {null}
+----Parameter types: {null}
+----Return type: interface java.util.Comparator
+----Modifier: public static
+
+----Method name: nullsFirst
+----Exceptions throw: {null}
+----Parameter types: {java.util.Comparator }
+----Return type: interface java.util.Comparator
+----Modifier: public static
+
+----Method name: nullsLast
+----Exceptions throw: {null}
+----Parameter types: {java.util.Comparator }
+----Return type: interface java.util.Comparator
+----Modifier: public static
+
+----Method name: comparing
+----Exceptions throw: {null}
+----Parameter types: {java.util.function.Function,java.util.Comparator }
+----Return type: interface java.util.Comparator
+----Modifier: public static
+
+----Method name: comparing
+----Exceptions throw: {null}
+----Parameter types: {java.util.function.Function }
+----Return type: interface java.util.Comparator
+----Modifier: public static
+
+----Method name: comparingInt
+----Exceptions throw: {null}
+----Parameter types: {java.util.function.ToIntFunction }
+----Return type: interface java.util.Comparator
+----Modifier: public static
+
+----Method name: comparingLong
+----Exceptions throw: {null}
+----Parameter types: {java.util.function.ToLongFunction }
+----Return type: interface java.util.Comparator
+----Modifier: public static
+
+----Method name: comparingDouble
+----Exceptions throw: {null}
+----Parameter types: {java.util.function.ToDoubleFunction }
+----Return type: interface java.util.Comparator
+----Modifier: public static
+
+----Method name: $deserializeLambda$
+----Exceptions throw: {null}
+----Parameter types: {java.lang.invoke.SerializedLambda }
+----Return type: class java.lang.Object
+----Modifier: private static
+
+----Method name: lambda$comparingDouble$8dcf42ea$1
+----Exceptions throw: {null}
+----Parameter types: {java.util.function.ToDoubleFunction,java.lang.Object,java.lang.Object }
+----Return type: int
+----Modifier: private static
+
+----Method name: lambda$comparingLong$6043328a$1
+----Exceptions throw: {null}
+----Parameter types: {java.util.function.ToLongFunction,java.lang.Object,java.lang.Object }
+----Return type: int
+----Modifier: private static
+
+----Method name: lambda$comparingInt$7b0bb60$1
+----Exceptions throw: {null}
+----Parameter types: {java.util.function.ToIntFunction,java.lang.Object,java.lang.Object }
+----Return type: int
+----Modifier: private static
+
+----Method name: lambda$comparing$77a9974f$1
+----Exceptions throw: {null}
+----Parameter types: {java.util.function.Function,java.lang.Object,java.lang.Object }
+----Return type: int
+----Modifier: private static
+
+----Method name: lambda$comparing$ea9a8b3a$1
+----Exceptions throw: {null}
+----Parameter types: {java.util.Comparator,java.util.function.Function,java.lang.Object,java.lang.Object }
+----Return type: int
+----Modifier: private static
+
+----Method name: lambda$thenComparing$36697e65$1
+----Exceptions throw: {null}
+----Parameter types: {java.util.Comparator,java.lang.Object,java.lang.Object }
+----Return type: int
+----Modifier: private
+
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+===================== Inspecting Interface =========================
+
+================= Basic ClassInfo =================
+Class: java.io.Serializable
+Immediate superclass: null
+Is Interface: true
+Interfaces: {null}
+============== Basic ClassInfo End ================
+
+
+================= Method Info =====================
+=============== Method Info End ====================
+
+
+================= Constructor Info =================
+=============== Constructor Info End ===============
+
+====================================================================
+*********           end           *********
+======================================================
+bash-3.2$ java Asst2TestDriver Inspector[C[C[C[C[C[C[C[C[C[Cexit[K
+exit
+
+Script done on Thu Mar  7 23:15:41 2019
